@@ -12,6 +12,15 @@ Due to a compatibility with Google Cloud Function deployment, the structure of t
 npm install && npm start
 ```
 
+## Try
+
+Request: `/json?value=demo&obj[type]=mock&obj[value]=demo`
+
+Response:
+```
+{"value":"demo","obj":{"type":"mock","value":"demo"}}
+```
+
 ## Google Cloud Function
 
 This project is Google Cloud Function compatible.
